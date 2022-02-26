@@ -1,0 +1,23 @@
+.header {
+    grid-area: hd;
+    width: 100%;
+    }
+  
+.header .home:before {
+        font-family: 'icomoon';
+        content: "\e904";
+        }
+  
+.header .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    
+  }
+.header .navbar a {
+    color:honeydew;
+    font-size: 24px;
+    background-color: black;
+    padding: 5px;
+  }
+ 

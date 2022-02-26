@@ -1,0 +1,28 @@
+
+.sidebar {
+    grid-area: sb;
+    padding: 20px 10px;
+  }
+
+.sidebar .aboutauthor {
+    color: #1a2a3a;
+    border-radius: 5px;    
+  }
+
+.sidebar .aboutauthor h1 {
+    margin-bottom: 20px;
+  }
+  
+.sidebar dt {
+    font-size: 26px;
+  }
+
+.sidebar dd {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+/* .sidebar .adventuremore {
+    margin-top: 80px;
+      } */
+

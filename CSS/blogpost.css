@@ -1,0 +1,50 @@
+@import "common.css";
+@import "footer.css";
+@import "header.css";
+@import "sidebar.css";
+
+#subscribe {
+    color: #0000cc;
+    font-size: 36px;
+    padding:5px 10px;
+    margin-top: 50px;
+    }
+button:hover {
+    background-color: #2a3a4a;
+}
+
+.post_container {
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+.post_container img {
+    width:100%;
+}
+
+.post_container article h1 {
+    font-size: 26px;
+    font-style: normal;
+    color:#1e1e1e;
+    font-weight: 700;
+
+}
+
+.post_container article h2 {
+    font-size: 24px;
+    color:#2a3a4a;
+}
+
+.post_container article h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.post_container article p {
+    font-size: 20px;
+}
+
+.post_container article a {
+    color: #0000cc;
+    font-size: 22px;
+}

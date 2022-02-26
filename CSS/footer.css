@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: ft;    
+  }
+  
+.footer .socialsharing .facebook:before {
+    font-family: 'icomoon';
+    content: "\e903";
+    font-size:26px;
+  }
+
+  .footer .socialsharing .twitter:before {
+    font-family: 'icomoon';
+    content: "\e902";
+    font-size:26px;
+  }
+
+  .footer .socialsharing .linkedin:before {
+    font-family: 'icomoon';
+    content: "\e901";
+    font-size:26px;
+  }
+
+  .footer h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-style: italic;
+  } 

@@ -1,0 +1,76 @@
+form {
+    width: 968px;
+    height: 230px;
+    background-color:#fed880;
+    margin: 200px auto;
+    padding: 50px;
+}
+
+form .title {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+form .discription {
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+form .subscribe_thirdrow {
+    margin-top: 50px;
+}
+
+form .subscribe_thirdrow input {
+    display: block;
+    width: 300px;
+    height: 35px;
+}
+
+form .subscribe_thirdrow #submit {
+    height: 42px;
+    width: 120px;
+    font-size: 24px;
+    border: 1px solid maroon;
+    border-radius: 4px;
+    background: none;
+}
+
+form #submit:hover {
+    background-color: maroon;
+}
+
+form .subscribe_thirdrow {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+@media (max-width: 600px){
+    form {
+        width: 350px;
+        height: 430px;
+        background-color:#fed880;
+        margin: 50px auto;
+        padding: 10px;
+    }
+    form .title {
+        font-size: 30px;
+        color: #333;
+        text-align: center;
+    }
+    form .discription {
+        margin-top: 16px;
+        font-size: 14px;
+        font-style: italic;
+        text-align: center;
+        padding:5px;
+    }
+    form .subscribe_thirdrow {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+
+    }
+}
